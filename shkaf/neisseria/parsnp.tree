@@ -1,0 +1,356 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=254;
+	taxlabels
+	'GCF_000006845.1_ASM684v1_genomic.fna.ref'[&!color=#0000ff]
+	'GCF_000020105.1_ASM2010v1_genomic.fna'[&!color=#00cc00]
+	'GCF_000156755.1_ASM15675v1_genomic.fna'[&!color=#ff3333]
+	'GCF_000156795.1_ASM15679v1_genomic.fna'[&!color=#0000ff]
+	'GCF_000156855.2_ASM15685v2_genomic.fna'[&!color=#ff3333]
+	'GCF_000156875.1_ASM15687v1_genomic.fna'[&!color=#0000ff]
+	'GCF_000156895.1_ASM15689v1_genomic.fna'[&!color=#0000ff]
+	'GCF_000159935.1_ASM15993v1_genomic.fna'[&!color=#0000ff]
+	'GCF_000273685.1_PB_Neis_gono_MS11_V1_genomic.fna'[&!color=#ff3333]
+	'GCF_000695405.1_NG-e03.04_genomic.fna'[&!color=#0000ff]
+	'GCF_000763255.1_ASM76325v1_genomic.fna'[&!color=#0000ff]
+	'GCF_001025465.1_ASM102546v1_genomic.fna'[&!color=#ff3333]
+	'GCF_001025595.1_ASM102559v1_genomic.fna'[&!color=#ff3333]
+	'GCF_001025645.1_ASM102564v1_genomic.fna'[&!color=#ff3333]
+	'GCF_001025705.1_ASM102570v1_genomic.fna'[&!color=#0000ff]
+	'GCF_001025765.1_ASM102576v1_genomic.fna'[&!color=#0000ff]
+	'GCF_001025775.1_ASM102577v1_genomic.fna'[&!color=#0000ff]
+	'GCF_001025805.1_ASM102580v1_genomic.fna'[&!color=#0000ff]
+	'GCF_001025865.1_ASM102586v1_genomic.fna'
+	'GCF_001025985.1_ASM102598v1_genomic.fna'[&!color=#00cc00]
+	'GCF_001026105.1_ASM102610v1_genomic.fna'[&!color=#00cc00]
+	'GCF_001026165.1_ASM102616v1_genomic.fna'[&!color=#0000ff]
+	'GCF_001026245.1_ASM102624v1_genomic.fna'[&!color=#0000ff]
+	'GCF_001026305.1_ASM102630v1_genomic.fna'[&!color=#0000ff]
+	'GCF_001026345.1_ASM102634v1_genomic.fna'[&!color=#00cc00]
+	'GCF_001026385.1_ASM102638v1_genomic.fna'[&!color=#0000ff]
+	'GCF_001026415.1_ASM102641v1_genomic.fna'[&!color=#0000ff]
+	'GCF_001026475.1_ASM102647v1_genomic.fna'[&!color=#0000ff]
+	'GCF_001026565.1_ASM102656v1_genomic.fna'[&!color=#0000ff]
+	'GCF_001026615.1_ASM102661v1_genomic.fna'[&!color=#0000ff]
+	'GCF_001026625.1_ASM102662v1_genomic.fna'[&!color=#ff9900]
+	'GCF_001039435.1_ASM103943v1_genomic.fna'
+	'GCF_001047225.1_ASM104722v1_genomic.fna'[&!color=#0000ff]
+	'GCF_001047255.1_ASM104725v1_genomic.fna'[&!color=#0000ff]
+	'GCF_001047275.1_ASM104727v1_genomic.fna'
+	'GCF_001083545.1_8727_8_23_genomic.fna'[&!color=#00cc00]
+	'GCF_001083925.1_8289_2_40_genomic.fna'
+	'GCF_001084125.1_8727_8_64_genomic.fna'[&!color=#00cc00]
+	'GCF_001085725.1_8727_5_52_genomic.fna'[&!color=#ff9900]
+	'GCF_001086345.1_8727_8_40_genomic.fna'[&!color=#ff9900]
+	'GCF_001087905.1_8727_5_65_genomic.fna'[&!color=#ff9900]
+	'GCF_001088845.1_8727_5_60_genomic.fna'[&!color=#ff3333]
+	'GCF_001092945.1_8289_2_56_genomic.fna'[&!color=#ff3333]
+	'GCF_001095225.1_8727_8_21_genomic.fna'[&!color=#00cc00]
+	'GCF_001097705.1_8727_8_18_genomic.fna'[&!color=#00cc00]
+	'GCF_001099005.1_8289_2_9_genomic.fna'[&!color=#ff9900]
+	'GCF_001099825.1_8289_2_75_genomic.fna'[&!color=#00cc00]
+	'GCF_001100285.1_8727_8_33_genomic.fna'[&!color=#00cc00]
+	'GCF_001100365.1_8727_8_19_genomic.fna'[&!color=#00cc00]
+	'GCF_001102165.1_8727_8_75_genomic.fna'[&!color=#ff9900]
+	'GCF_001102205.1_8727_8_39_genomic.fna'[&!color=#00cc00]
+	'GCF_001103045.1_8289_2_43_genomic.fna'[&!color=#00cc00]
+	'GCF_001103565.1_8289_2_22_genomic.fna'[&!color=#ff3333]
+	'GCF_001106145.1_8289_2_86_genomic.fna'[&!color=#00cc00]
+	'GCF_001106765.1_8727_5_59_genomic.fna'[&!color=#ff9900]
+	'GCF_001109305.1_8727_5_86_genomic.fna'[&!color=#00cc00]
+	'GCF_001112845.1_8727_8_32_genomic.fna'[&!color=#ff9900]
+	'GCF_001116105.1_8727_8_67_genomic.fna'[&!color=#00cc00]
+	'GCF_001116305.1_8727_8_28_genomic.fna'[&!color=#00cc00]
+	'GCF_001116825.1_8289_2_27_genomic.fna'[&!color=#00cc00]
+	'GCF_001116885.1_8727_8_14_genomic.fna'[&!color=#ff9900]
+	'GCF_001117305.1_8289_2_66_genomic.fna'[&!color=#00cc00]
+	'GCF_001120385.1_8727_5_55_genomic.fna'[&!color=#00cc00]
+	'GCF_001120685.1_8727_8_62_genomic.fna'[&!color=#00cc00]
+	'GCF_001121745.1_8289_2_76_genomic.fna'[&!color=#00cc00]
+	'GCF_001124565.1_8289_2_2_genomic.fna'[&!color=#00cc00]
+	'GCF_001125025.1_8727_5_58_genomic.fna'[&!color=#ff3333]
+	'GCF_001128265.1_8727_8_45_genomic.fna'[&!color=#00cc00]
+	'GCF_001128745.1_8289_2_69_genomic.fna'[&!color=#00cc00]
+	'GCF_001129885.1_8727_8_30_genomic.fna'[&!color=#ff9900]
+	'GCF_001130585.1_8727_5_76_genomic.fna'[&!color=#ff9900]
+	'GCF_001130625.1_8289_2_36_genomic.fna'[&!color=#00cc00]
+	'GCF_001130865.1_8289_2_81_genomic.fna'[&!color=#00cc00]
+	'GCF_001131645.1_8289_2_17_genomic.fna'[&!color=#00cc00]
+	'GCF_001132185.1_8727_5_89_genomic.fna'[&!color=#00cc00]
+	'GCF_001137245.1_8727_5_45_genomic.fna'[&!color=#00cc00]
+	'GCF_001140845.1_8289_2_26_genomic.fna'[&!color=#ff3333]
+	'GCF_001143005.1_8727_8_80_genomic.fna'[&!color=#ff9900]
+	'GCF_001143605.1_8727_8_76_genomic.fna'
+	'GCF_001144185.1_8727_8_85_genomic.fna'[&!color=#00cc00]
+	'GCF_001144225.1_8289_2_67_genomic.fna'[&!color=#00cc00]
+	'GCF_001145225.1_8727_8_20_genomic.fna'[&!color=#ff3333]
+	'GCF_001146925.1_8289_2_73_genomic.fna'[&!color=#ff9900]
+	'GCF_001148185.1_8727_8_55_genomic.fna'[&!color=#00cc00]
+	'GCF_001153945.1_8727_5_69_genomic.fna'[&!color=#ff9900]
+	'GCF_001153985.1_8727_5_91_genomic.fna'[&!color=#00cc00]
+	'GCF_001155685.1_8727_5_66_genomic.fna'[&!color=#ff3333]
+	'GCF_001156005.1_8727_8_46_genomic.fna'[&!color=#ff3333]
+	'GCF_001156065.1_8727_5_87_genomic.fna'[&!color=#00cc00]
+	'GCF_001158885.1_8727_5_44_genomic.fna'[&!color=#00cc00]
+	'GCF_001159665.1_8727_8_68_genomic.fna'[&!color=#ff3333]
+	'GCF_001161025.1_8289_2_31_genomic.fna'[&!color=#00cc00]
+	'GCF_001161645.1_8727_8_57_genomic.fna'[&!color=#ff9900]
+	'GCF_001161785.1_8727_5_56_genomic.fna'[&!color=#ff3333]
+	'GCF_001162065.1_8727_5_67_genomic.fna'[&!color=#ff9900]
+	'GCF_001162645.1_8289_2_60_genomic.fna'[&!color=#ff3333]
+	'GCF_001162805.1_8289_2_95_genomic.fna'[&!color=#00cc00]
+	'GCF_001163145.1_8289_2_87_genomic.fna'[&!color=#00cc00]
+	'GCF_001163365.1_8727_8_12_genomic.fna'[&!color=#00cc00]
+	'GCF_001165585.1_8727_8_51_genomic.fna'[&!color=#00cc00]
+	'GCF_001167285.1_8727_5_85_genomic.fna'[&!color=#00cc00]
+	'GCF_001167545.1_8289_2_10_genomic.fna'[&!color=#ff9900]
+	'GCF_001168565.1_8727_8_66_genomic.fna'[&!color=#0000ff]
+	'GCF_001170125.1_8727_8_78_genomic.fna'[&!color=#ff9900]
+	'GCF_001171225.1_8727_5_43_genomic.fna'[&!color=#ff9900]
+	'GCF_001171665.1_8289_2_41_genomic.fna'[&!color=#00cc00]
+	'GCF_001171845.1_8727_8_92_genomic.fna'[&!color=#ff3333]
+	'GCF_001319085.1_8727_5_90_genomic.fna'[&!color=#ff3333]
+	'GCF_001319125.1_8727_5_74_genomic.fna'[&!color=#ff9900]
+	'GCF_001319145.1_8727_5_61_genomic.fna'[&!color=#ff9900]
+	'GCF_001354635.1_8727_8_90_genomic.fna'[&!color=#ff3333]
+	'GCF_001354655.1_8727_8_35_genomic.fna'[&!color=#00cc00]
+	'GCF_001354775.1_8289_2_8_genomic.fna'[&!color=#ff3333]
+	'GCF_001354815.1_8727_8_77_genomic.fna'[&!color=#ff9900]
+	'GCF_001354835.1_8289_2_79_genomic.fna'[&!color=#00cc00]
+	'GCF_001354935.1_8289_2_68_genomic.fna'[&!color=#00cc00]
+	'GCF_001354995.1_8289_2_28_genomic.fna'[&!color=#00cc00]
+	'GCF_001355015.1_8727_8_59_genomic.fna'[&!color=#00cc00]
+	'GCF_001355155.1_8727_8_94_genomic.fna'[&!color=#ff3333]
+	'GCF_001355235.1_8289_2_72_genomic.fna'[&!color=#0000ff]
+	'GCF_001355295.1_8289_2_78_genomic.fna'[&!color=#ff3333]
+	'GCF_001355315.1_8289_2_32_genomic.fna'[&!color=#ff3333]
+	'GCF_001661085.1_ASM166108v1_genomic.fna'[&!color=#ff3333]
+	'GCF_001661115.1_ASM166111v1_genomic.fna'[&!color=#00cc00]
+	'GCF_001661135.1_ASM166113v1_genomic.fna'[&!color=#0000ff]
+	'GCF_001858595.1_ASM185859v1_genomic.fna'[&!color=#0000ff]
+	'GCF_001858675.1_ASM185867v1_genomic.fna'[&!color=#ff3333]
+	'GCF_001858695.1_ASM185869v1_genomic.fna'
+	'GCF_001858785.1_ASM185878v1_genomic.fna'[&!color=#ff9900]
+	'GCF_001858825.1_ASM185882v1_genomic.fna'[&!color=#ff9900]
+	'GCF_001858855.1_ASM185885v1_genomic.fna'[&!color=#ff9900]
+	'GCF_001858985.1_ASM185898v1_genomic.fna'[&!color=#00cc00]
+	'GCF_001859015.1_ASM185901v1_genomic.fna'[&!color=#00ff33]
+	'GCF_001859045.1_ASM185904v1_genomic.fna'[&!color=#00cc00]
+	'GCF_001859135.1_ASM185913v1_genomic.fna'[&!color=#00cc00]
+	'GCF_001859245.1_ASM185924v1_genomic.fna'[&!color=#0000ff]
+	'GCF_001859365.1_ASM185936v1_genomic.fna'[&!color=#ff9900]
+	'GCF_001859495.1_ASM185949v1_genomic.fna'[&!color=#ff9900]
+	'GCF_001859545.1_ASM185954v1_genomic.fna'[&!color=#ff9900]
+	'GCF_001859635.1_ASM185963v1_genomic.fna'[&!color=#ff9900]
+	'GCF_001859655.1_ASM185965v1_genomic.fna'[&!color=#ff9900]
+	'GCF_001859715.1_ASM185971v1_genomic.fna'[&!color=#ff9900]
+	'GCF_001859785.1_ASM185978v1_genomic.fna'[&!color=#0000ff]
+	'GCF_001859875.1_ASM185987v1_genomic.fna'[&!color=#00cc00]
+	'GCF_001859905.1_ASM185990v1_genomic.fna'[&!color=#ff3333]
+	'GCF_001859915.1_ASM185991v1_genomic.fna'[&!color=#00cc00]
+	'GCF_001859945.1_ASM185994v1_genomic.fna'[&!color=#ff9900]
+	'GCF_001859975.1_ASM185997v1_genomic.fna'[&!color=#ff9900]
+	'GCF_001860025.1_ASM186002v1_genomic.fna'[&!color=#ff9900]
+	'GCF_001860045.1_ASM186004v1_genomic.fna'[&!color=#ff3333]
+	'GCF_001860055.1_ASM186005v1_genomic.fna'[&!color=#ff3333]
+	'GCF_001956715.1_ASM195671v1_genomic.fna'[&!color=#00cc00]
+	'GCF_002073535.2_ASM207353v2_genomic.fna'[&!color=#0000ff]
+	'GCF_002073615.2_ASM207361v2_genomic.fna'
+	'GCF_002073655.2_ASM207365v2_genomic.fna'[&!color=#0000ff]
+	'GCF_002080775.1_ASM208077v1_genomic.fna'[&!color=#ff9900]
+	'GCF_002080865.1_ASM208086v1_genomic.fna'[&!color=#ff3333]
+	'GCF_002080895.1_ASM208089v1_genomic.fna'[&!color=#ff9900]
+	'GCF_002080935.1_ASM208093v1_genomic.fna'
+	'GCF_002081015.1_ASM208101v1_genomic.fna'[&!color=#0000ff]
+	'GCF_002289065.1_ASM228906v1_genomic.fna'[&!color=#ff3333]
+	'GCF_002942955.1_ASM294295v1_genomic.fna'[&!color=#ff3333]
+	'GCF_002943005.1_ASM294300v1_genomic.fna'[&!color=#ff3333]
+	'GCF_002943025.1_ASM294302v1_genomic.fna'[&!color=#ff3333]
+	'GCF_003428675.1_ASM342867v1_genomic.fna'[&!color=#0000ff]
+	'GCF_003428755.1_ASM342875v1_genomic.fna'[&!color=#0000ff]
+	'GCF_003428775.1_ASM342877v1_genomic.fna'[&!color=#0000ff]
+	'GCF_003492635.1_ASM349263v1_genomic.fna'[&!color=#0000ff]
+	'GCF_003571445.1_ASM357144v1_genomic.fna'[&!color=#00cc00]
+	'GCF_003571465.1_ASM357146v1_genomic.fna'[&!color=#00cc00]
+	'GCF_003789265.1_ASM378926v1_genomic.fna'[&!color=#00cc00]
+	'GCF_003789285.1_ASM378928v1_genomic.fna'[&!color=#ff9900]
+	'GCF_003789405.1_ASM378940v1_genomic.fna'[&!color=#ff9900]
+	'GCF_003789535.1_ASM378953v1_genomic.fna'[&!color=#ff9900]
+	'GCF_003789545.1_ASM378954v1_genomic.fna'[&!color=#0000ff]
+	'GCF_003789605.1_ASM378960v1_genomic.fna'[&!color=#ff9900]
+	'GCF_003789645.1_ASM378964v1_genomic.fna'
+	'GCF_003789665.1_ASM378966v1_genomic.fna'[&!color=#0000ff]
+	'GCF_003789705.1_ASM378970v1_genomic.fna'[&!color=#ff3333]
+	'GCF_003789715.1_ASM378971v1_genomic.fna'[&!color=#ff9900]
+	'GCF_003789735.1_ASM378973v1_genomic.fna'[&!color=#0000ff]
+	'GCF_003789785.1_ASM378978v1_genomic.fna'
+	'GCF_003789895.1_ASM378989v1_genomic.fna'[&!color=#ff9900]
+	'GCF_003790055.1_ASM379005v1_genomic.fna'[&!color=#0000ff]
+	'GCF_003790125.1_ASM379012v1_genomic.fna'[&!color=#0000ff]
+	'GCF_003790135.1_ASM379013v1_genomic.fna'
+	'GCF_003790325.1_ASM379032v1_genomic.fna'[&!color=#ff3333]
+	'GCF_003855175.1_ASM385517v1_genomic.fna'[&!color=#ff3333]
+	'GCF_003855195.1_ASM385519v1_genomic.fna'[&!color=#ff3333]
+	'GCF_003855215.1_ASM385521v1_genomic.fna'[&!color=#00cc00]
+	'GCF_003855235.1_ASM385523v1_genomic.fna'[&!color=#ff3333]
+	'GCF_003855295.1_ASM385529v1_genomic.fna'[&!color=#0000ff]
+	'GCF_003855355.1_ASM385535v1_genomic.fna'[&!color=#0000ff]
+	'GCF_003855375.1_ASM385537v1_genomic.fna'[&!color=#ff9900]
+	'GCF_003855415.1_ASM385541v1_genomic.fna'[&!color=#ff3333]
+	'GCF_003855435.1_ASM385543v1_genomic.fna'[&!color=#0000ff]
+	'GCF_003967295.1_ASM396729v1_genomic.fna'
+	'GCF_003967335.1_ASM396733v1_genomic.fna'
+	'GCF_004001105.1_ASM400110v1_genomic.fna'
+	'GCF_004001165.1_ASM400116v1_genomic.fna'
+	'GCF_004001185.1_ASM400118v1_genomic.fna'
+	'GCF_004332535.2_ASM433253v2_genomic.fna'[&!color=#ff3333]
+	'GCF_004332555.2_ASM433255v2_genomic.fna'[&!color=#ff3333]
+	'GCF_005046955.1_ASM504695v1_genomic.fna'
+	'GCF_005047065.1_ASM504706v1_genomic.fna'[&!color=#ff3333]
+	'GCF_005047715.1_ASM504771v1_genomic.fna'[&!color=#00cc00]
+	'GCF_005047755.1_ASM504775v1_genomic.fna'[&!color=#ff9900]
+	'GCF_005048575.1_ASM504857v1_genomic.fna'
+	'GCF_005048585.1_ASM504858v1_genomic.fna'[&!color=#ff3333]
+	'GCF_005771765.1_ASM577176v1_genomic.fna'[&!color=#ff3333]
+	'GCF_006225375.1_ASM622537v1_genomic.fna'[&!color=#00cc00]
+	'GCF_006225495.1_ASM622549v1_genomic.fna'[&!color=#ff3333]
+	'GCF_006225575.1_ASM622557v1_genomic.fna'[&!color=#00cc00]
+	'GCF_006225675.1_ASM622567v1_genomic.fna'[&!color=#00cc00]
+	'GCF_006225735.1_ASM622573v1_genomic.fna'[&!color=#00cc00]
+	'GCF_006225805.1_ASM622580v1_genomic.fna'[&!color=#00cc00]
+	'GCF_006226075.1_ASM622607v1_genomic.fna'[&!color=#ff9900]
+	'GCF_006226095.1_ASM622609v1_genomic.fna'[&!color=#ff9900]
+	'GCF_006226145.1_ASM622614v1_genomic.fna'[&!color=#00cc00]
+	'GCF_006226155.1_ASM622615v1_genomic.fna'[&!color=#00cc00]
+	'GCF_007107165.1_ASM710716v1_genomic.fna'
+	'GCF_007107365.1_ASM710736v1_genomic.fna'
+	'GCF_008065015.1_ASM806501v1_genomic.fna'
+	'GCF_009650075.1_ASM965007v1_genomic.fna'
+	'GCF_009757075.1_ASM975707v1_genomic.fna'[&!color=#0000ff]
+	'GCF_011058635.1_ASM1105863v1_genomic.fna'[&!color=#ff3333]
+	'GCF_011058655.1_ASM1105865v1_genomic.fna'[&!color=#ff3333]
+	'GCF_011058675.1_ASM1105867v1_genomic.fna'[&!color=#ff3333]
+	'GCF_900087615.2_WHOM_genomic.fna'
+	'GCF_900087625.2_WHOO_genomic.fna'[&!color=#ff3333]
+	'GCF_900087635.2_WHOF_genomic.fna'[&!color=#0000ff]
+	'GCF_900087645.2_WHOW_genomic.fna'
+	'GCF_900087685.2_WHOY_genomic.fna'[&!color=#00cc00]
+	'GCF_900087715.2_WHOZ_genomic.fna'
+	'GCF_900087725.2_WHON_genomic.fna'
+	'GCF_900087735.2_WHOP_genomic.fna'[&!color=#ff9900]
+	'GCF_900087785.2_WHOG_genomic.fna'
+	'GCF_900087795.2_WHOV_genomic.fna'[&!color=#00cc00]
+	'GCF_900087815.2_WHOX_genomic.fna'
+	'GCF_900087865.2_WHOK_genomic.fna'
+	'GCF_900087875.2_WHOL_genomic.fna'[&!color=#0000ff]
+	'GCF_900087905.2_WHOU_genomic.fna'
+	'GCF_900097075.1_ESCNG_PRJEB13093_83BENAI65_wgs.embl_genomic.fna'[&!color=#ff3333]
+	'GCF_900097095.1_ESCNG_PRJEB13093_WHOB_wgs.embl_genomic.fna'
+	'GCF_900186875.1_49677_F01_genomic.fna'[&!color=#00cc00]
+	'GCF_900186915.1_49699_A01_genomic.fna'[&!color=#00cc00]
+	'GCF_900186935.1_49677_G01_genomic.fna'[&!color=#ff9900]
+	'GCF_900411635.1_G97687_genomic.fna'
+	'GCF_900453925.1_54424_A01_genomic.fna'[&!color=#00cc00]
+	'GCF_900453965.1_53750_D01_genomic.fna'[&!color=#00cc00]
+	'GCF_900454075.1_55884_A01_genomic.fna'[&!color=#0000ff]
+	'GCF_900454085.1_52592_G02_genomic.fna'[&!color=#0000ff]
+	'GCF_900454105.1_49699_C01_genomic.fna'[&!color=#00cc00]
+	'GCF_900637245.1_50305_B01_genomic.fna'[&!color=#ff9900]
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (((('GCF_001858985.1_ASM185898v1_genomic.fna':0.00878,('GCF_001859915.1_ASM185991v1_genomic.fna':6.7E-4,'GCF_001859135.1_ASM185913v1_genomic.fna':0.0)[&label=1.0]:0.00121)[&label=0.97]:3.1E-4,(('GCF_003571445.1_ASM357144v1_genomic.fna':0.0,'GCF_001354655.1_8727_8_35_genomic.fna':7.0E-5)[&label=0.93]:1.1E-4,((('GCF_006226155.1_ASM622615v1_genomic.fna':0.0,'GCF_006225735.1_ASM622573v1_genomic.fna':0.0):0.00277,'GCF_900186915.1_49699_A01_genomic.fna':4.2E-4)[&label=0.88]:1.1E-4,(('GCF_001026105.1_ASM102610v1_genomic.fna':0.00468,(((('GCF_003789265.1_ASM378926v1_genomic.fna':0.00825,('GCF_001354935.1_8289_2_68_genomic.fna':1.8E-4,'GCF_001121745.1_8289_2_76_genomic.fna':4.0E-5)[&label=0.76]:4.0E-5)[&label=0.74]:4.0E-5,('GCF_001097705.1_8727_8_18_genomic.fna':1.8E-4,('GCF_001117305.1_8289_2_66_genomic.fna':0.00213,('GCF_001354995.1_8289_2_28_genomic.fna':0.0,'GCF_001084125.1_8727_8_64_genomic.fna':0.0):0.00156)[&label=1.0]:0.0)[&label=0.81]:4.0E-5)[&label=1.0]:0.00904,((('GCF_001128745.1_8289_2_69_genomic.fna':1.4E-4,'GCF_001163145.1_8289_2_87_genomic.fna':3.2E-4)[&label=1.0]:7.1E-4,(('GCF_001144185.1_8727_8_85_genomic.fna':1.8E-4,'GCF_001144225.1_8289_2_67_genomic.fna':2.8E-4)[&label=0.3]:0.0,((('GCF_006225805.1_ASM622580v1_genomic.fna':2.1E-4,'GCF_001162805.1_8289_2_95_genomic.fna':1.8E-4)[&label=0.8]:4.0E-5,('GCF_001099825.1_8289_2_75_genomic.fna':2.5E-4,('GCF_003571465.1_ASM357146v1_genomic.fna':0.0,('GCF_001102205.1_8727_8_39_genomic.fna':1.1E-4,('GCF_006225675.1_ASM622567v1_genomic.fna':4.0E-5,'GCF_001137245.1_8727_5_45_genomic.fna':4.0E-5)[&label=0.92]:0.0)[&label=0.96]:1.4E-4)[&label=0.94]:4.0E-5)[&label=0.19]:0.0)[&label=0.96]:1.1E-4,('GCF_001167285.1_8727_5_85_genomic.fna':0.00295,('GCF_001130865.1_8289_2_81_genomic.fna':0.0,('GCF_001354835.1_8289_2_79_genomic.fna':4.0E-5,'GCF_006225375.1_ASM622537v1_genomic.fna':0.00985)[&label=0.74]:0.0)[&label=1.0]:0.0)[&label=1.0]:5.3E-4)[&label=0.43]:0.0)[&label=0.87]:4.0E-5)[&label=0.92]:0.0,('GCF_005047715.1_ASM504771v1_genomic.fna':3.9E-4,('GCF_001165585.1_8727_8_51_genomic.fna':2.1E-4,('GCF_001103045.1_8289_2_43_genomic.fna':4.0E-5,'GCF_001128265.1_8727_8_45_genomic.fna':7.0E-5)[&label=0.64]:0.0)[&label=1.0]:5.3E-4)[&label=1.0]:0.0)[&label=0.9]:0.0)[&label=0.72]:4.0E-5,('GCF_001025985.1_ASM102598v1_genomic.fna':0.00864,('GCF_900454105.1_49699_C01_genomic.fna':0.01719,(((('GCF_001158885.1_8727_5_44_genomic.fna':0.01497,('GCF_001130625.1_8289_2_36_genomic.fna':0.0102,('GCF_001124565.1_8289_2_2_genomic.fna':0.01449,('GCF_001026345.1_ASM102634v1_genomic.fna':4.6E-4,('GCF_001120685.1_8727_8_62_genomic.fna':0.00256,('GCF_001109305.1_8727_5_86_genomic.fna':1.4E-4,'GCF_001163365.1_8727_8_12_genomic.fna':0.0032)[&label=1.0]:0.00987)[&label=0.86]:7.0E-5)[&label=0.93]:3.2E-4)[&label=1.0]:5.8E-4)[&label=1.0]:0.00123)[&label=1.0]:0.00387,('GCF_000020105.1_ASM2010v1_genomic.fna':0.00339,('GCF_001956715.1_ASM195671v1_genomic.fna':0.00786,'GCF_001106145.1_8289_2_86_genomic.fna':0.02037)[&label=0.87]:3.0E-4)[&label=0.97]:6.3E-4)[&label=1.0]:0.00723,(('GCF_001859045.1_ASM185904v1_genomic.fna':4.0E-5,'GCF_001859015.1_ASM185901v1_genomic.fna':0.0)[&label=1.0]:0.01444,(('GCF_900453965.1_53750_D01_genomic.fna':0.0,'GCF_900087795.2_WHOV_genomic.fna':0.0):0.01639,(('GCF_001858695.1_ASM185869v1_genomic.fna':0.01243,'GCF_002080935.1_ASM208093v1_genomic.fna':0.01414)[&label=1.0]:0.03056,(((((('GCF_900087725.2_WHON_genomic.fna':0.02239,'GCF_900087785.2_WHOG_genomic.fna':0.02757)[&label=1.0]:0.04287,(((('GCF_900097095.1_ESCNG_PRJEB13093_WHOB_wgs.embl_genomic.fna':0.06963,'GCF_002073615.2_ASM207361v2_genomic.fna':0.05969)[&label=1.0]:0.02001,((((('GCF_000006845.1_ASM684v1_genomic.fna.ref':0.00554,'GCF_009757075.1_ASM975707v1_genomic.fna':2.9E-4)[&label=1.0]:0.07844,('GCF_001355235.1_8289_2_72_genomic.fna':0.07267,'GCF_003428675.1_ASM342867v1_genomic.fna':0.10698)[&label=1.0]:0.02083)[&label=0.98]:0.00868,('GCF_003855435.1_ASM385543v1_genomic.fna':0.07788,('GCF_001026385.1_ASM102638v1_genomic.fna':0.0,'GCF_001026415.1_ASM102641v1_genomic.fna':0.0,'GCF_900087635.2_WHOF_genomic.fna':0.0):0.08812)[&label=1.0]:0.0156)[&label=1.0]:0.00819,(((('GCF_000763255.1_ASM76325v1_genomic.fna':0.09081,(('GCF_003855355.1_ASM385535v1_genomic.fna':0.0,'GCF_003855295.1_ASM385529v1_genomic.fna':0.0):0.07036,(('GCF_001026565.1_ASM102656v1_genomic.fna':0.01518,'GCF_000695405.1_NG-e03.04_genomic.fna':0.01745)[&label=1.0]:0.03508,('GCF_001047225.1_ASM104722v1_genomic.fna':0.05201,('GCF_003428775.1_ASM342877v1_genomic.fna':6.2E-4,'GCF_001025775.1_ASM102577v1_genomic.fna':0.00339)[&label=1.0]:0.04577)[&label=0.93]:0.00956)[&label=1.0]:0.01965)[&label=1.0]:0.01711)[&label=1.0]:0.01436,('GCF_900454075.1_55884_A01_genomic.fna':0.08555,'GCF_900454085.1_52592_G02_genomic.fna':0.09289)[&label=1.0]:0.02257)[&label=1.0]:0.00727,((('GCF_000156875.1_ASM15687v1_genomic.fna':0.0,'GCF_003428755.1_ASM342875v1_genomic.fna':0.0):0.03143,'GCF_000159935.1_ASM15993v1_genomic.fna':0.03564)[&label=1.0]:0.05788,('GCF_002073535.2_ASM207353v2_genomic.fna':0.07043,(('GCF_001661135.1_ASM166113v1_genomic.fna':0.00433,('GCF_001025805.1_ASM102580v1_genomic.fna':0.00166,('GCF_001026245.1_ASM102624v1_genomic.fna':0.00541,'GCF_001026305.1_ASM102630v1_genomic.fna':7.1E-4)[&label=0.88]:7.0E-5)[&label=1.0]:0.00192)[&label=1.0]:0.05008,(('GCF_001859245.1_ASM185924v1_genomic.fna':1.0E-4,'GCF_001859785.1_ASM185978v1_genomic.fna':3.2E-4)[&label=1.0]:0.02966,(('GCF_001026615.1_ASM102661v1_genomic.fna':0.00178,((('GCF_003790055.1_ASM379005v1_genomic.fna':0.00134,'GCF_003789665.1_ASM378966v1_genomic.fna':6.8E-4)[&label=1.0]:0.01695,'GCF_003790125.1_ASM379012v1_genomic.fna':0.01658)[&label=1.0]:0.00445,('GCF_003789545.1_ASM378954v1_genomic.fna':0.00653,'GCF_001168565.1_8727_8_66_genomic.fna':0.03149)[&label=1.0]:0.00202)[&label=1.0]:0.02731)[&label=1.0]:0.00384,('GCF_002081015.1_ASM208101v1_genomic.fna':0.01153,'GCF_001858595.1_ASM185859v1_genomic.fna':0.02322)[&label=1.0]:0.0113)[&label=1.0]:0.01226)[&label=1.0]:0.05294)[&label=1.0]:0.02404)[&label=0.99]:0.01225)[&label=1.0]:0.00837)[&label=1.0]:0.00707,(('GCF_000156895.1_ASM15689v1_genomic.fna':0.0586,('GCF_002073655.2_ASM207365v2_genomic.fna':0.02502,('GCF_003789735.1_ASM378973v1_genomic.fna':0.00331,'GCF_003492635.1_ASM349263v1_genomic.fna':0.00102)[&label=1.0]:0.03073)[&label=1.0]:0.04678)[&label=1.0]:0.01582,('GCF_001026475.1_ASM102647v1_genomic.fna':0.06359,(('GCF_001047255.1_ASM104725v1_genomic.fna':0.02527,('GCF_001025705.1_ASM102570v1_genomic.fna':4.0E-5,'GCF_900087875.2_WHOL_genomic.fna':4.0E-5)[&label=1.0]:0.04583)[&label=1.0]:0.02655,('GCF_000156795.1_ASM15679v1_genomic.fna':0.05021,('GCF_001026165.1_ASM102616v1_genomic.fna':0.00183,'GCF_001025765.1_ASM102576v1_genomic.fna':0.00203)[&label=1.0]:0.04449)[&label=1.0]:0.01208)[&label=1.0]:0.02164)[&label=1.0]:0.02316)[&label=1.0]:0.0106)[&label=1.0]:0.01215)[&label=1.0]:0.01559,((('GCF_002289065.1_ASM228906v1_genomic.fna':0.03256,('GCF_002080865.1_ASM208086v1_genomic.fna':0.00408,(('GCF_001859905.1_ASM185990v1_genomic.fna':0.00765,('GCF_001860055.1_ASM186005v1_genomic.fna':0.0,'GCF_001860045.1_ASM186004v1_genomic.fna':0.0):9.9E-4)[&label=0.98]:4.0E-4,(('GCF_003855415.1_ASM385541v1_genomic.fna':7.0E-5,'GCF_003855175.1_ASM385517v1_genomic.fna':0.0)[&label=1.0]:0.0,'GCF_003855235.1_ASM385523v1_genomic.fna':0.00733)[&label=1.0]:9.1E-4)[&label=1.0]:0.00363)[&label=1.0]:0.03692)[&label=1.0]:0.02423,(('GCF_011058675.1_ASM1105867v1_genomic.fna':0.01294,('GCF_011058635.1_ASM1105863v1_genomic.fna':0.00592,'GCF_011058655.1_ASM1105865v1_genomic.fna':0.00117)[&label=1.0]:0.00644)[&label=1.0]:0.03579,('GCF_003790325.1_ASM379032v1_genomic.fna':0.05331,('GCF_006225495.1_ASM622549v1_genomic.fna':0.00492,'GCF_001156005.1_8727_8_46_genomic.fna':0.00332)[&label=1.0]:0.01775)[&label=1.0]:0.01836)[&label=0.86]:0.01096)[&label=1.0]:0.01334,(('GCF_001125025.1_8727_5_58_genomic.fna':0.04465,'GCF_003789705.1_ASM378970v1_genomic.fna':0.04757)[&label=1.0]:0.02017,(('GCF_000156855.2_ASM15685v2_genomic.fna':0.0,'GCF_000273685.1_PB_Neis_gono_MS11_V1_genomic.fna':0.0):0.05181,((('GCF_900087625.2_WHOO_genomic.fna':0.0,'GCF_001025595.1_ASM102559v1_genomic.fna':4.0E-5)[&label=1.0]:0.03183,(('GCF_005771765.1_ASM577176v1_genomic.fna':0.00262,'GCF_001319085.1_8727_5_90_genomic.fna':7.0E-5)[&label=1.0]:0.00695,((('GCF_900097075.1_ESCNG_PRJEB13093_83BENAI65_wgs.embl_genomic.fna':0.01564,('GCF_001162645.1_8289_2_60_genomic.fna':7.0E-5,'GCF_001355315.1_8289_2_32_genomic.fna':4.0E-5)[&label=0.78]:6.0E-5)[&label=1.0]:0.0048,(('GCF_001140845.1_8289_2_26_genomic.fna':0.00341,('GCF_005048585.1_ASM504858v1_genomic.fna':0.00213,'GCF_001092945.1_8289_2_56_genomic.fna':8.5E-4)[&label=0.75]:3.0E-5)[&label=0.74]:0.0,'GCF_005047065.1_ASM504706v1_genomic.fna':7.1E-4)[&label=0.88]:7.0E-5)[&label=0.76]:4.0E-5,(((('GCF_001103565.1_8289_2_22_genomic.fna':1.1E-4,'GCF_001355155.1_8727_8_94_genomic.fna':2.5E-4)[&label=0.88]:0.0,('GCF_001161785.1_8727_5_56_genomic.fna':0.0,'GCF_001145225.1_8727_8_20_genomic.fna':1.8E-4)[&label=1.0]:0.01451)[&label=0.92]:1.1E-4,('GCF_001355295.1_8289_2_78_genomic.fna':0.00149,('GCF_001661085.1_ASM166108v1_genomic.fna':0.0,'GCF_001025645.1_ASM102564v1_genomic.fna':0.0011)[&label=1.0]:0.00981)[&label=1.0]:5.3E-4)[&label=1.0]:2.8E-4,(('GCF_001858675.1_ASM185867v1_genomic.fna':0.00365,'GCF_001025465.1_ASM102546v1_genomic.fna':0.00163)[&label=0.86]:0.0,(('GCF_004332535.2_ASM433253v2_genomic.fna':3.9E-4,'GCF_004332555.2_ASM433255v2_genomic.fna':3.2E-4)[&label=0.91]:1.1E-4,('GCF_001159665.1_8727_8_68_genomic.fna':0.0055,'GCF_003855195.1_ASM385519v1_genomic.fna':0.01085)[&label=1.0]:0.00215)[&label=0.6]:0.0)[&label=0.78]:4.0E-5)[&label=0.78]:4.0E-5)[&label=1.0]:0.00505)[&label=1.0]:0.05453)[&label=0.96]:0.01357,('GCF_000156755.1_ASM15675v1_genomic.fna':0.01822,(('GCF_002943005.1_ASM294300v1_genomic.fna':1.1E-4,('GCF_002942955.1_ASM294295v1_genomic.fna':0.0,'GCF_002943025.1_ASM294302v1_genomic.fna':4.0E-5)[&label=0.83]:7.0E-5)[&label=1.0]:0.03094,('GCF_001354775.1_8289_2_8_genomic.fna':0.01925,('GCF_001354635.1_8727_8_90_genomic.fna':0.00525,('GCF_001155685.1_8727_5_66_genomic.fna':9.9E-4,('GCF_001088845.1_8727_5_60_genomic.fna':0.00198,'GCF_001171845.1_8727_8_92_genomic.fna':0.00125)[&label=0.8]:1.5E-4)[&label=1.0]:0.00119)[&label=1.0]:0.00359)[&label=1.0]:0.02029)[&label=1.0]:0.04345)[&label=1.0]:0.00997)[&label=1.0]:0.01521)[&label=1.0]:0.01007)[&label=0.9]:0.01008)[&label=1.0]:0.0209)[&label=1.0]:0.01277)[&label=1.0]:0.01407,'GCF_001039435.1_ASM103943v1_genomic.fna':0.0651)[&label=1.0]:0.01242,(((('GCF_003967335.1_ASM396733v1_genomic.fna':0.0,'GCF_003967295.1_ASM396729v1_genomic.fna':0.0):0.0,'GCF_008065015.1_ASM806501v1_genomic.fna':0.00223)[&label=1.0]:0.00326,(('GCF_007107165.1_ASM710716v1_genomic.fna':3.5E-4,'GCF_007107365.1_ASM710736v1_genomic.fna':1.1E-4)[&label=1.0]:7.0E-4,(('GCF_004001105.1_ASM400110v1_genomic.fna':0.0,'GCF_004001165.1_ASM400116v1_genomic.fna':0.0):0.0,'GCF_004001185.1_ASM400118v1_genomic.fna':1.4E-4)[&label=1.0]:0.00146)[&label=0.22]:0.00146)[&label=1.0]:0.07811,('GCF_001083925.1_8289_2_40_genomic.fna':0.03248,('GCF_900411635.1_G97687_genomic.fna':0.00371,'GCF_009650075.1_ASM965007v1_genomic.fna':0.0022)[&label=1.0]:0.03246)[&label=1.0]:0.02013)[&label=0.99]:0.01251)[&label=0.98]:0.0111)[&label=0.6]:0.00745,('GCF_005048575.1_ASM504857v1_genomic.fna':0.05174,('GCF_003789645.1_ASM378964v1_genomic.fna':0.03521,(('GCF_003789785.1_ASM378978v1_genomic.fna':0.0,'GCF_003790135.1_ASM379013v1_genomic.fna':1.1E-4)[&label=1.0]:0.01989,('GCF_005046955.1_ASM504695v1_genomic.fna':0.0094,('GCF_001143605.1_8727_8_76_genomic.fna':0.02396,'GCF_001025865.1_ASM102586v1_genomic.fna':0.00263)[&label=0.33]:2.9E-4)[&label=1.0]:0.00247)[&label=0.97]:0.00284)[&label=1.0]:0.00956)[&label=1.0]:0.02259)[&label=1.0]:0.00611,('GCF_900087905.2_WHOU_genomic.fna':0.0555,'GCF_900087615.2_WHOM_genomic.fna':0.00771)[&label=1.0]:0.03114)[&label=1.0]:0.01007,('GCF_001047275.1_ASM104727v1_genomic.fna':0.00827,('GCF_900087865.2_WHOK_genomic.fna':0.00208,('GCF_900087645.2_WHOW_genomic.fna':0.00396,('GCF_900087715.2_WHOZ_genomic.fna':0.00448,'GCF_900087815.2_WHOX_genomic.fna':0.00107)[&label=1.0]:0.0059)[&label=1.0]:0.00414)[&label=1.0]:0.00664)[&label=1.0]:0.03882)[&label=1.0]:0.00523,(((('GCF_001167545.1_8289_2_10_genomic.fna'[&!color=#000000]:0.05402,('GCF_005047755.1_ASM504775v1_genomic.fna'[&!color=#000000]:0.01388,'GCF_001099005.1_8289_2_9_genomic.fna'[&!color=#000000]:0.02348)[&label=1.0,!color=#000000]:0.00377)[&label=1.0,!color=#000000]:0.0098,(('GCF_003789285.1_ASM378928v1_genomic.fna'[&!color=#000000]:0.00724,((('GCF_001106765.1_8727_5_59_genomic.fna'[&!color=#000000]:7.0E-5,('GCF_001354815.1_8727_8_77_genomic.fna'[&!color=#000000]:0.0,'GCF_001102165.1_8727_8_75_genomic.fna'[&!color=#000000]:2.8E-4)[&label=0.85,!color=#000000]:4.0E-5)[&label=0.13,!color=#000000]:0.0,('GCF_001153945.1_8727_5_69_genomic.fna'[&!color=#000000]:0.0,'GCF_001162065.1_8727_5_67_genomic.fna'[&!color=#000000]:0.0)[&!color=#000000]:1.1E-4)[&label=1.0,!color=#000000]:0.00272,('GCF_001161645.1_8727_8_57_genomic.fna'[&!color=#000000]:0.00894,(('GCF_001087905.1_8727_5_65_genomic.fna'[&!color=#000000]:0.0,'GCF_001146925.1_8289_2_73_genomic.fna'[&!color=#000000]:0.0,'GCF_001319145.1_8727_5_61_genomic.fna'[&!color=#000000]:0.0)[&!color=#000000]:0.0,'GCF_001171225.1_8727_5_43_genomic.fna'[&!color=#000000]:1.1E-4)[&label=1.0,!color=#000000]:0.0)[&label=1.0,!color=#000000]:9.8E-4)[&label=1.0,!color=#000000]:0.00797)[&label=1.0,!color=#000000]:0.02232,('GCF_002080895.1_ASM208089v1_genomic.fna'[&!color=#000000]:0.02406,((((('GCF_001859495.1_ASM185949v1_genomic.fna'[&!color=#000000]:4.2E-4,('GCF_003855375.1_ASM385537v1_genomic.fna'[&!color=#000000]:5.0E-4,'GCF_001859365.1_ASM185936v1_genomic.fna'[&!color=#000000]:4.2E-4)[&label=0.05,!color=#000000]:0.0)[&label=0.84,!color=#000000]:7.0E-5,(('GCF_001858825.1_ASM185882v1_genomic.fna'[&!color=#000000]:7.4E-4,('GCF_001858785.1_ASM185878v1_genomic.fna'[&!color=#000000]:4.2E-4,'GCF_002080775.1_ASM208077v1_genomic.fna'[&!color=#000000]:2.1E-4)[&label=1.0,!color=#000000]:9.6E-4)[&label=0.95,!color=#000000]:1.1E-4,('GCF_001859945.1_ASM185994v1_genomic.fna'[&!color=#000000]:0.00844,('GCF_001858855.1_ASM185885v1_genomic.fna'[&!color=#000000]:4.0E-5,(('GCF_001859635.1_ASM185963v1_genomic.fna'[&!color=#000000]:0.0,'GCF_001859715.1_ASM185971v1_genomic.fna'[&!color=#000000]:0.0,'GCF_001859655.1_ASM185965v1_genomic.fna'[&!color=#000000]:0.0)[&!color=#000000]:0.0,'GCF_001859975.1_ASM185997v1_genomic.fna'[&!color=#000000]:1.4E-4)[&label=0.76,!color=#000000]:4.0E-5)[&label=0.93,!color=#000000]:1.1E-4)[&label=0.94,!color=#000000]:1.1E-4)[&label=0.87,!color=#000000]:7.0E-5)[&label=0.83,!color=#000000]:4.0E-5,('GCF_001859545.1_ASM185954v1_genomic.fna'[&!color=#000000]:0.0034,(('GCF_001112845.1_8727_8_32_genomic.fna'[&!color=#000000]:2.5E-4,'GCF_001086345.1_8727_8_40_genomic.fna'[&!color=#000000]:0.00241)[&label=1.0,!color=#000000]:9.8E-4,'GCF_006226075.1_ASM622607v1_genomic.fna'[&!color=#000000]:0.00793)[&label=1.0,!color=#000000]:0.00151)[&label=0.94,!color=#000000]:2.2E-4)[&label=0.73,!color=#000000]:0.0,(('GCF_006226095.1_ASM622609v1_genomic.fna'[&!color=#000000]:0.00937,('GCF_001085725.1_8727_5_52_genomic.fna'[&!color=#000000]:4.0E-5,('GCF_001319125.1_8727_5_74_genomic.fna'[&!color=#000000]:0.0,('GCF_001130585.1_8727_5_76_genomic.fna'[&!color=#000000]:7.0E-5,'GCF_001143005.1_8727_8_80_genomic.fna'[&!color=#000000]:7.0E-5)[&label=1.0,!color=#000000]:0.0)[&label=0.95,!color=#000000]:0.0)[&label=0.92,!color=#000000]:7.0E-5)[&label=0.97,!color=#000000]:0.0,('GCF_001116885.1_8727_8_14_genomic.fna'[&!color=#000000]:2.8E-4,'GCF_001170125.1_8727_8_78_genomic.fna'[&!color=#000000]:0.00415)[&label=1.0,!color=#000000]:0.0)[&label=0.85,!color=#000000]:0.0)[&label=0.68,!color=#000000]:7.0E-5,('GCF_001129885.1_8727_8_30_genomic.fna'[&!color=#000000]:0.00318,('GCF_003789405.1_ASM378940v1_genomic.fna'[&!color=#000000]:0.00176,('GCF_003789535.1_ASM378953v1_genomic.fna'[&!color=#000000]:0.02185,('GCF_003789715.1_ASM378971v1_genomic.fna'[&!color=#000000]:0.0,('GCF_003789895.1_ASM378989v1_genomic.fna'[&!color=#000000]:1.1E-4,'GCF_003789605.1_ASM378960v1_genomic.fna'[&!color=#000000]:7.0E-5)[&label=0.81,!color=#000000]:4.0E-5)[&label=1.0,!color=#000000]:0.0)[&label=0.99,!color=#000000]:9.7E-4)[&label=1.0,!color=#000000]:0.02012)[&label=1.0,!color=#000000]:0.00208)[&label=1.0,!color=#000000]:0.00682)[&label=1.0,!color=#000000]:0.01365)[&label=1.0,!color=#000000]:0.00154)[&label=1.0,!color=#000000]:0.00871,('GCF_001026625.1_ASM102662v1_genomic.fna'[&!color=#000000]:0.00489,('GCF_900186935.1_49677_G01_genomic.fna'[&!color=#000000]:0.04453,'GCF_001860025.1_ASM186002v1_genomic.fna'[&!color=#000000]:0.01079)[&label=0.98,!color=#000000]:6.0E-4)[&label=1.0,!color=#000000]:0.00992)[&label=0.97,!color=#000000]:5.9E-4,('GCF_900087735.2_WHOP_genomic.fna'[&!color=#000000]:0.0,'GCF_900637245.1_50305_B01_genomic.fna'[&!color=#000000]:0.0)[&!color=#000000]:0.01385)[&label=1.0,!hilight={49,0.18330000000000005,#ff9900},!color=#000000]:0.02892)[&label=1.0]:0.00978)[&label=1.0]:0.02247)[&label=0.99]:0.00783)[&label=1.0]:0.00535)[&label=0.62]:0.00129,'GCF_001859875.1_ASM185987v1_genomic.fna':0.01549)[&label=0.97]:0.00378)[&label=1.0]:0.00951)[&label=1.0]:0.00193)[&label=1.0]:0.0018)[&label=1.0]:0.0,((((('GCF_001083545.1_8727_8_23_genomic.fna':0.0,'GCF_001095225.1_8727_8_21_genomic.fna':0.0):4.0E-5,'GCF_001148185.1_8727_8_55_genomic.fna':0.0)[&label=1.0]:0.01278,('GCF_001131645.1_8289_2_17_genomic.fna':0.0,('GCF_001116825.1_8289_2_27_genomic.fna':4.0E-5,('GCF_001132185.1_8727_5_89_genomic.fna':0.0,('GCF_001161025.1_8289_2_31_genomic.fna':7.0E-5,'GCF_001100365.1_8727_8_19_genomic.fna':7.0E-5)[&label=0.97]:0.0)[&label=0.85]:0.0)[&label=0.95]:7.0E-5)[&label=0.23]:0.0)[&label=0.97]:1.8E-4,('GCF_001116305.1_8727_8_28_genomic.fna':5.7E-4,('GCF_001156065.1_8727_5_87_genomic.fna':1.1E-4,'GCF_001661115.1_ASM166111v1_genomic.fna':3.2E-4)[&label=1.0]:0.00106)[&label=0.92]:1.1E-4)[&label=0.88]:7.0E-5,('GCF_001116105.1_8727_8_67_genomic.fna':5.0E-4,'GCF_001100285.1_8727_8_33_genomic.fna':2.1E-4)[&label=0.76]:4.0E-5)[&label=0.88]:0.0)[&label=1.0]:0.0)[&label=0.96]:1.8E-4)[&label=0.82]:4.0E-5)[&label=0.82]:0.0,('GCF_006226145.1_ASM622614v1_genomic.fna':0.00558,('GCF_001120385.1_8727_5_55_genomic.fna':4.0E-5,'GCF_001153985.1_8727_5_91_genomic.fna':0.0)[&label=0.97]:2.5E-4)[&label=0.97]:2.5E-4)[&label=0.78]:0.0,(('GCF_900186875.1_49677_F01_genomic.fna':0.00238,'GCF_003855215.1_ASM385521v1_genomic.fna':0.01245)[&label=0.96]:3.6E-4,('GCF_900087685.2_WHOY_genomic.fna':0.0,'GCF_900453925.1_54424_A01_genomic.fna':0.0):7.0E-5)[&label=1.0]:0.0,('GCF_001171665.1_8289_2_41_genomic.fna':4.0E-5,('GCF_001355015.1_8727_8_59_genomic.fna':1.1E-4,'GCF_006225575.1_ASM622557v1_genomic.fna':2.5E-4)[&label=1.0]:8.8E-4)[&label=0.94]:0.0);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RADIAL";
+	set layout.zoom=0;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=20.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=3.0;
+	set scaleBar.scaleRange=0.04;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=6;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
